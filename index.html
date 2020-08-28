@@ -1,1 +1,19 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.scss">
+    <title>Pick One</title>
+</head>
+<body>
+    <h1 id="selector">Choose your role: </h1>
+    <h2 id="selector1" class="selector" onclick="addTank()">Tank</h2>
+    <h2 id="selector2" class="selector" onclick="addHealer()">Healer</h2>
+    <h2 id="selector3" class="selector" onclick="addDamage()">Damage</h2>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/selection.js"></script>
+</body>
+</html>
